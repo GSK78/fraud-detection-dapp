@@ -20,38 +20,25 @@ Provide an overview of your project. What problem does it solve? Who is it for? 
 Features
 
 Feature 1: Description of the first key feature.
+A React frontend for the user interface.
 Feature 2: Description of the second key feature.
+A Flask backend to handle logic and blockchain interactions.
 Feature 3: Description of the third key feature.
+A smart contract deployed on Ganache, a tool that runs a local Ethereum blockchain for testing.
 
 
 Prerequisites
-List the software or tools users need to install before setting up your project. For example:
+Before starting, install the following software:
 
-Node.js (v14 or later)
-Python (v3.8 or later)
-Git
-
-
-Installation
-Step-by-step instructions to set up your project locally:
-
-Clone the Repository  
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-
-Install DependenciesIf your project uses Python:  
-pip install -r requirements.txt
-
-If your project uses Node.js:  
-npm install
+Node.js (v14 or later): Download
+Python (v3.8 or later): Download
+Ganache: Download
+MetaMask browser extension: Download
+Git: Download
 
 
 Set Up Environment Variables (if applicable)Create a .env file in the root directory and add necessary variables:  
 KEY_NAME=value
-
-
-
 
 Usage
 Explain how to run and use your project. Include commands and examples:  
@@ -70,13 +57,22 @@ Mention any specific requirements or caveats (e.g., "Ensure port 3000 is free").
 
 Project Structure
 Provide an overview of your project’s file organization:  
-your-repo-name/
-├── src/              # Source code
-├── docs/             # Documentation files
-├── .env              # Environment variables
-├── .gitignore        # Git ignore file
-└── README.md         # This file
-
+fraud-detection-dapp/
+├── backend/              # Source code
+├── build/             # Documentation files
+├── contracts/             # Environment variables
+├── frontend/        # Git ignore file
+└── migrations/    # This file
+└── node_modules/
+└── savedresult/
+└── test/
+└── .env
+└──.gitgnore
+└── package
+└── package-look
+└── README
+└── truffle-config.js
+└── .env.exmaple
 
 Contributing
 Encourage collaboration by explaining how others can contribute:  
